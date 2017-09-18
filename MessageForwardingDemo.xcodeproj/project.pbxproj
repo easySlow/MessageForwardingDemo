@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E0A202111F6FE79700EDB076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A202101F6FE79700EDB076 /* main.m */; };
 		E0A202191F6FE7B700EDB076 /* MyOwnClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A202181F6FE7B700EDB076 /* MyOwnClass.m */; };
+		E0A202221F6FF6DF00EDB076 /* NSString+MyAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A202211F6FF6DF00EDB076 /* NSString+MyAddtion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E0A202101F6FE79700EDB076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0A202171F6FE7B700EDB076 /* MyOwnClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOwnClass.h; sourceTree = "<group>"; };
 		E0A202181F6FE7B700EDB076 /* MyOwnClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOwnClass.m; sourceTree = "<group>"; };
+		E0A202201F6FF6DF00EDB076 /* NSString+MyAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MyAddtion.h"; sourceTree = "<group>"; };
+		E0A202211F6FF6DF00EDB076 /* NSString+MyAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyAddtion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E0A202101F6FE79700EDB076 /* main.m */,
 				E0A202171F6FE7B700EDB076 /* MyOwnClass.h */,
 				E0A202181F6FE7B700EDB076 /* MyOwnClass.m */,
+				E0A202201F6FF6DF00EDB076 /* NSString+MyAddtion.h */,
+				E0A202211F6FF6DF00EDB076 /* NSString+MyAddtion.m */,
 			);
 			path = MessageForwardingDemo;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				E0A202111F6FE79700EDB076 /* main.m in Sources */,
 				E0A202191F6FE7B700EDB076 /* MyOwnClass.m in Sources */,
+				E0A202221F6FF6DF00EDB076 /* NSString+MyAddtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
